@@ -3,7 +3,7 @@ name: CI/CD Deploy to EC2
 # Kích hoạt workflow khi có push tới nhánh main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-deploy:
